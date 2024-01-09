@@ -1,0 +1,25 @@
+{
+  "name": "robot-arm-vr-cli",
+  "version": "0.1.1",
+  "description": "Command line tools for robot arm VR contents",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc"
+  },
+  "bin": {
+    "robot-arm-vr": "./dist/main.js"
+  },
+  "author": "Tatsuya Susukida",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.7",
+    "@types/node-fetch": "^2.6.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
