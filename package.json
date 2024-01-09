@@ -1,6 +1,6 @@
 {
   "name": "robot-arm-vr-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Command line tools for robot arm VR contents",
   "main": "./dist/main.js",
   "types": "./dist/main.d.ts",
@@ -11,6 +11,11 @@
   "bin": {
     "robot-arm-vr": "./dist/main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tatsuyasusukida/robot-arm-vr-cli.git"
+  },
+  "homepage": "https://github.com/tatsuyasusukida/robot-arm-vr-cli",
   "author": "Tatsuya Susukida",
   "license": "MIT",
   "devDependencies": {
