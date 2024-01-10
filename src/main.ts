@@ -30,7 +30,7 @@ async function main() {
   }
 
   const apiUrl = process.argv[2];
-  const dirname = __dirname;
+  const dirname = process.cwd();
   const sources = await getSources(dirname);
 
   await sendMessage(apiUrl, {
